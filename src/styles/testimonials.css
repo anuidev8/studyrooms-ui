@@ -1,0 +1,41 @@
+
+blockquote{
+    margin: 0;
+    padding: 0;
+}
+.testimonials{
+    background-color: var(--secondary-color);
+    height: min(380px,600px);
+    flex-direction: column;
+    padding: 1.2em 0;
+}
+.testimonials__mark{
+    margin: 0;
+    width: 50px;
+}
+
+.testimonials__message{
+    margin-top: 3em;
+    padding: 0 1em;
+   
+}
+
+.testimonials__profile{
+    border-top: 2px solid #fff;
+    width: min(100%,88%);
+    margin-top: 1.3em;
+    padding-top: 1.8em;
+}
+
+.testimonials__profile .profile-photo{
+    margin: 0;
+}
+
+.testimonials__profile .name{
+    margin: 0;
+    margin-top: .3em;
+}
+.testimonials__profile .role{
+    margin-top: .3em;
+    font-weight: 200;
+}

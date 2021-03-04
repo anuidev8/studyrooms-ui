@@ -1,0 +1,84 @@
+.slider-wrapper{
+    padding: 0 max(2em ,(100% - 63em) / 2);
+    margin-top:3em;
+}
+
+.slick-list{
+    height:min(500px,400px);
+    padding-top:2em;
+}
+
+.slider-prev-arrow{
+    background: #fff;
+    border: none;
+    outline: none;
+    color: var(--primary--color);
+    padding: .4em 1.2em;
+
+}
+
+.slick-prev,.slick-next{
+    background-color: #fff;
+    border-radius:8px ;
+    box-shadow: 0 0 4px rgba(0,0,0,.2);
+    width: auto;
+    height: auto;
+    padding: 8px 10px;
+    z-index: 1;
+}
+.slick-next{
+    right: 0;
+}
+
+.slick-prev:hover,.slick-next:hover{
+    background-color: #fff;
+}
+.slick-prev::before, .slick-next::before{
+    content: url(../images/section-3/arorr-prev.svg);
+    display: block;
+}
+
+.slick-next::before{
+    transform: rotate(180deg);
+}
+
+/* dots */
+.slick-dots{
+    bottom: -40px;
+}
+.slick-dots li button::before {
+    background-color: #fff;
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    opacity: 1;
+    transition: background-color .3s , width .3s , height .3s;
+}
+
+.slick-dots li.slick-active button::before {
+    background-color: var(--secondary-color);
+    width: 14px;
+    height: 14px;
+    opacity: 1;
+}
+
+/* currencycourse */
+#currencycourse .slick-list{
+    height: 600px;
+}
+#currencycourse  .slick-dots{
+    bottom: 30px;
+}
+#currencycourse .slick-dots li.slick-active button::before {
+    background-color: var(--primary-color);
+
+}
+
+/*testimonials*/
+#testimonials .slick-dots li button::before {
+    background-color: rgb(201, 201, 201);
+}
+#testimonials .slick-dots li.slick-active button::before{
+    background-color: var(--secondary-color);
+}

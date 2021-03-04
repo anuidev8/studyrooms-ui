@@ -1,0 +1,10 @@
+.button{
+    background: none;
+    background-color: var(--tomato-color);
+    border: none;
+    cursor: pointer;
+    font-size: 0.875rem;
+    padding: .75rem 2.5rem;
+    border-radius: 3em;
+    box-shadow: 2px 3px 3px rgba(0,0,0,0.08);
+}
